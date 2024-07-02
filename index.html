@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Mengkun She</title>
+
+  <meta name="author" content="Mengkun She">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+
+<body>
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:2.5%;width:63%;vertical-align:middle">
+                  <p class="name" style="text-align: center;">
+                    Mengkun She | 佘梦坤
+                  </p>
+                  <p>Hi! I'm a Ph.D. student at the <a href="https://www.inf.uni-kiel.de/de"> Institute of Computer
+                      Science</a>, <a href="https://www.uni-kiel.de/de/">Christian-Albrechts-Universität zu Kiel</a> in
+                    Germany. Here, I'm working in the <a
+                      href="https://www.marine.informatik.uni-kiel.de/en/about">Marine Data Science</a> group advised by
+                    Prof. Dr. Kevin Köser.
+                  </p>
+                  <p>Before moving to Kiel University, I was a research scientist in the <a
+                      href="https://www.geomar.de/en/omv">Oceanic Machine Vision</a> group at <a
+                      href="https://www.geomar.de">GEOMAR Helmholtz-Zentrum für Ozeanforschung Kiel</a></p>
+                  <p style="text-align:center">
+                    <a href="mailto:mengkun.she@gmail.com">Email</a> &nbsp;/&nbsp;
+                    <a href="data/mengkun_she_cv_updated_202304.pdf">CV</a> &nbsp;/&nbsp;
+                    <a href="https://scholar.google.com/citations?user=KmPypAEAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
+                    <a href="https://github.com/Serenitysmk">Github</a>
+                  </p>
+                </td>
+                <td style="padding:2.5%;width:40%;max-width:40%">
+                  <a href="images/mshe.jpg"><img
+                      style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo"
+                      src="images/mshe.jpg" class="hoverZoomLink"></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table width="60%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tr>
+              <td width="50%" valign="middle">
+                <a href="https://www.marine.informatik.uni-kiel.de/en/about"><img src="media/cau_logo.png"
+                    width="120"></a>
+              </td>
+              <td width="50%" valign="middle">
+                <a href="https://www.geomar.de/en/omv"><img src="media/geomar_white_logo.jpg" width="120"></a>
+              </td>
+            </tr>
+          </table>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <h2>Research</h2>
+                  <p>
+                    At <a href="https://www.marine.informatik.uni-kiel.de/en/about">MDS</a> group, we focus on
+                    Artificial Intelligence and Perception for the Marine Sciences and Environments, in particular at
+                    the interface of Computer Vision, Computer Graphics, Robotics and Machine Learning. We therefore
+                    need to deal with challenging but very interesting real-world images acquired by deep-sea robots.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+
+              <tr onmouseout="rawnerf_stop()" onmouseover="rawnerf_start()" bgcolor="#ffffd0">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='rawnerf_image'><video width=100% height=100% muted autoplay loop>
+                        <source src="images/rawnerf.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video></div>
+                    <img src='images/rawnerf.jpg' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function rawnerf_start() {
+                      document.getElementById('rawnerf_image').style.opacity = "1";
+                    }
+
+                    function rawnerf_stop() {
+                      document.getElementById('rawnerf_image').style.opacity = "0";
+                    }
+                    rawnerf_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://bmild.github.io/rawnerf/index.html">
+                    <span class="papertitle">NeRF in the Dark: High Dynamic Range View Synthesis from Noisy Raw
+                      Images</span>
+                  </a>
+                  <br>
+                  <a href="https://bmild.github.io/">Ben Mildenhall</a>,
+                  <a href="https://phogzone.com/">Peter Hedman</a>,
+                  <a href="http://www.ricardomartinbrualla.com/">Ricardo Martin-Brualla</a>, <br>
+                  <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
+                  <strong>Jonathan T. Barron</strong>
+                  <br>
+                  <em>CVPR</em>, 2022 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+                  <br>
+                  <a href="https://bmild.github.io/rawnerf/index.html">project page</a>
+                  /
+                  <a href="https://arxiv.org/abs/2111.13679">arXiv</a>
+                  /
+                  <a href="https://www.youtube.com/watch?v=JtBS4KBcKVc">video</a>
+                  <p></p>
+                  <p>
+                    Properly training NeRF on raw camera data enables HDR view synthesis and bokeh, and outperforms
+                    multi-image denoising.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td>
+                  <h2>Services</h2>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" align="center" border="0" cellpadding="20">
+            <tbody>
+
+              <tr>
+                <!-- <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td> -->
+                <td width="100%" valign="center">
+                  <em>Teaching Assistant</em>: <a href="https://moduldb.informatik.uni-kiel.de/show.cgi?mod=infMobRob%2D01a">Mobile Robotics, Winter 2023, CAU</a>
+                  <br>
+                </td>
+              </tr>
+              <tr>
+                <td width="100%" valign="center">
+                  <em>Reviewer</em>: <a href="https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing">ISPRS Journal of Photogrammetry and Remote Sensing</a>; <a href="https://link.springer.com/journal/41064">PFG Journal of Photogrammetry, Remote Sensing and Geoinformation Science</a>
+                </td>
+              </tr>
+
+
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:0px">
+                  <br>
+                  <p style="text-align:right;font-size:small;">
+                    Yep I know this is another <a href="https://jonbarron.info">Jon Barron</a> website.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+  </table>
+</body>
+
+</html>
