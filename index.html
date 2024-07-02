@@ -84,7 +84,33 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
-              <tr onmouseout="domecalib_stop()" onmouseover="domecalib_start()" bgcolor="#ffffd0">
+              <!--Light-water estimation paper-->
+              <tr onmouseout="domecalib_stop()" onmouseover="domecalib_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src='images/lightunw.png' alt="lightunw" width="160" height="160">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a
+                    href="https://openaccess.thecvf.com/content/ICCV2021W/OceanVision/html/Nakath_In-Situ_Joint_Light_and_Medium_Estimation_for_Underwater_Color_Restoration_ICCVW_2021_paper.html">
+                    <span class="papertitle">In-Situ Joint Light and Medium Estimation for Underwater Color
+                      Restoration</span>
+                  </a>
+                  <br>
+                  <a href="https://www.geomar.de/dnakath">David Nakath</a>, <strong>Mengkun She</strong>, Yifan Song, <a
+                    href="https://www.marine.informatik.uni-kiel.de/en/team">Kevin Köser</a>
+                  <br>
+                  <em>International Conference on Computer Vision Workshops (<strong>ICCV</strong>) Workshops</em>, 2021
+                  <br>
+
+                  <p>3D reconstruction using a camera with an active light source creates an uneven and color-distorted
+                    texture. We use physically-based differentiable ray-tracing to firstly estimate the light source in
+                    a calibration scenario, and then optimize a medium- and light- free texture in the subsequent SfM
+                    step.
+                </td>
+              </tr>
+
+              <!--Dome calibration paper-->
+              <tr onmouseout="domecalib_stop()" onmouseover="domecalib_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='tank_dome'><img src='images/tank_dome.gif' width="160" height="160"></div>
@@ -110,8 +136,8 @@
                   <strong>Mengkun She</strong>, Yifan Song, Jochen Mohrmann, <a
                     href="https://www.marine.informatik.uni-kiel.de/en/team">Kevin Köser</a>
                   <br>
-                  Pattern Recognition: 41st DAGM German Conference, DAGM GCPR 2019, Dortmund, Germany, September 10–13,
-                  2019, Proceedings 41. Springer International Publishing, 2019.
+                  <em>41st DAGM German Conference on Pattern Recognition (<strong>GCPR</strong>)</em>, 2019 (<strong
+                    style="color:red">Oral Presentation</strong>)
                   <br>
                   <a
                     href="https://www.geomar.de/fileadmin/personal/fb2/mg/kkoeser/domecalibration_preprint.pdf">preprint</a>
