@@ -84,52 +84,43 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
-
-              <tr onmouseout="rawnerf_stop()" onmouseover="rawnerf_start()" bgcolor="#ffffd0">
+              <tr onmouseout="domecalib_stop()" onmouseover="domecalib_start()" bgcolor="#ffffd0">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='rawnerf_image'><video width=100% height=100% muted autoplay loop>
-                        <source src="images/rawnerf.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                      </video></div>
-                    <img src='images/rawnerf.jpg' width="160">
+                    <div class="two" id='tank_dome'><img src='images/tank_dome.gif' width="160" height="160"></div>
+                    <img src='images/tank_dome.jpg' alt="tank_dome" width="160" height="160">
                   </div>
                   <script type="text/javascript">
-                    function rawnerf_start() {
-                      document.getElementById('rawnerf_image').style.opacity = "1";
+                    function domecalib_start() {
+                      document.getElementById('tank_dome').style.opacity = "1";
                     }
 
-                    function rawnerf_stop() {
-                      document.getElementById('rawnerf_image').style.opacity = "0";
+                    function domecalib_stop() {
+                      document.getElementById('tank_dome').style.opacity = "0";
                     }
-                    rawnerf_stop()
+                    domecalib_stop()
                   </script>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://bmild.github.io/rawnerf/index.html">
-                    <span class="papertitle">NeRF in the Dark: High Dynamic Range View Synthesis from Noisy Raw
-                      Images</span>
+                  <a href="https://link.springer.com/chapter/10.1007/978-3-030-33676-9_6">
+                    <span class="papertitle">Adjustment and calibration of dome port camera systems for underwater
+                      vision</span>
                   </a>
                   <br>
-                  <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-                  <a href="https://phogzone.com/">Peter Hedman</a>,
-                  <a href="http://www.ricardomartinbrualla.com/">Ricardo Martin-Brualla</a>, <br>
-                  <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-                  <strong>Jonathan T. Barron</strong>
+                  <strong>Mengkun She</strong>, Yifan Song, Jochen Mohrmann, <a
+                    href="https://www.marine.informatik.uni-kiel.de/en/team">Kevin Köser</a>
                   <br>
-                  <em>CVPR</em>, 2022 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+                  Pattern Recognition: 41st DAGM German Conference, DAGM GCPR 2019, Dortmund, Germany, September 10–13,
+                  2019, Proceedings 41. Springer International Publishing, 2019.
                   <br>
-                  <a href="https://bmild.github.io/rawnerf/index.html">project page</a>
-                  /
-                  <a href="https://arxiv.org/abs/2111.13679">arXiv</a>
-                  /
-                  <a href="https://www.youtube.com/watch?v=JtBS4KBcKVc">video</a>
-                  <p></p>
-                  <p>
-                    Properly training NeRF on raw camera data enables HDR view synthesis and bokeh, and outperforms
-                    multi-image denoising.</p>
+                  <a
+                    href="https://www.geomar.de/fileadmin/personal/fb2/mg/kkoeser/domecalibration_preprint.pdf">preprint</a>
+                  <p>In this work, we develop an effective method to align a camera with an underwater spherical port
+                    (dome-port) for underwater camera systems. This technique is essential for the accurate calibration
+                    of our underwater cameras.</p>
                 </td>
               </tr>
+
             </tbody>
           </table>
 
@@ -149,13 +140,19 @@
               <tr>
                 <!-- <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td> -->
                 <td width="100%" valign="center">
-                  <em>Teaching Assistant</em>: <a href="https://moduldb.informatik.uni-kiel.de/show.cgi?mod=infMobRob%2D01a">Mobile Robotics, Winter 2023, CAU</a>
+                  <em>Teaching Assistant</em>: <a
+                    href="https://moduldb.informatik.uni-kiel.de/show.cgi?mod=infMobRob%2D01a">Mobile Robotics, Winter
+                    2023, CAU</a>
                   <br>
                 </td>
               </tr>
               <tr>
                 <td width="100%" valign="center">
-                  <em>Reviewer</em>: <a href="https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing">ISPRS Journal of Photogrammetry and Remote Sensing</a>; <a href="https://link.springer.com/journal/41064">PFG Journal of Photogrammetry, Remote Sensing and Geoinformation Science</a>
+                  <em>Reviewer</em>: <a
+                    href="https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing">ISPRS
+                    Journal of Photogrammetry and Remote Sensing</a>; <a
+                    href="https://link.springer.com/journal/41064">PFG Journal of Photogrammetry, Remote Sensing and
+                    Geoinformation Science</a>
                 </td>
               </tr>
 
