@@ -84,8 +84,66 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
+              <!--Refractive geometry for underwater domes-->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src='images/refrac_dome.png' alt="refrac_dome" width="160" height="160">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a
+                    href="https://www.sciencedirect.com/science/article/pii/S092427162100304X">
+                    <span class="papertitle">Refractive Geometry for Underwater Domes</span>
+                  </a>
+                  <br>
+                  <strong>Mengkun She</strong>, <a href="https://www.geomar.de/dnakath">David Nakath</a>, Yifan Song, <a href="https://www.marine.informatik.uni-kiel.de/en/team">Kevin Köser</a>
+                  <br>
+                  <em>ISPRS Journal of Photogrammetry and Remote Sensing</em>
+                  <br>
+                  <p>We look more into the refractive geometry properties of underwater dome-port cameras.</p>
+                </td>
+              </tr>
+
+              <!--3DV Macal calibration-->
+              <tr onmouseout="macal_stop()" onmouseover="macal_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='macal_image'><video  width=100% height=100% muted autoplay loop>
+                    <source src="images/macal.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video></div>
+                    <img src='images/macal_image.png' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function macal_start() {
+                      document.getElementById('macal_image').style.opacity = "1";
+                    }
+  
+                    function macal_stop() {
+                      document.getElementById('macal_image').style.opacity = "0";
+                    }
+                    macal_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a
+                    href="https://ieeexplore.ieee.org/abstract/document/9665843">
+                    <span class="papertitle">Macal-Macro Lens Calibration and the Focus Stack Camera Model</span>
+                  </a>
+                  <br>
+                  <a href="https://www.geomar.de/xweng">Xiangyu Weng*</a>, <strong>Mengkun She*</strong>, <a href="https://www.geomar.de/dnakath">David Nakath</a>, <a href="https://www.marine.informatik.uni-kiel.de/en/team">Kevin Köser</a>
+                  <br>
+                  <span>(*equal contribution)</span>
+                  <br>
+                  <em>International Conference on 3D Vision (<strong>3DV</strong>)</em>, 2021
+                  <br>
+                  <a href="https://www.geomar.de/fileadmin/content/forschen/fb2/mg/omv/macrocalibration.pdf">preprint</a>
+
+                  <p>We discover that the camera model of a focus stacked image is essentially an affine model. We then propose a macro-lens calibration approach based on this insight for 3D reconstruction of very tiny objects using such cameras. This technology is used in the <a href="https://techoceans.eu">TechOceanS</a> project.</p>
+                </td>
+              </tr>
+
               <!--Light-water estimation paper-->
-              <tr onmouseout="domecalib_stop()" onmouseover="domecalib_start()">
+              <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <img src='images/lightunw.png' alt="lightunw" width="160" height="160">
                 </td>
@@ -106,6 +164,7 @@
                     texture. We use physically-based differentiable ray-tracing to firstly estimate the light source in
                     a calibration scenario, and then optimize a medium- and light- free texture in the subsequent SfM
                     step.
+                  </p>
                 </td>
               </tr>
 
@@ -129,8 +188,8 @@
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a href="https://link.springer.com/chapter/10.1007/978-3-030-33676-9_6">
-                    <span class="papertitle">Adjustment and calibration of dome port camera systems for underwater
-                      vision</span>
+                    <span class="papertitle">Adjustment and Calibration of Dome Port Camera Systems for Underwater
+                      Vision</span>
                   </a>
                   <br>
                   <strong>Mengkun She</strong>, Yifan Song, Jochen Mohrmann, <a
@@ -167,8 +226,8 @@
                 <!-- <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td> -->
                 <td width="100%" valign="center">
                   <em>Teaching Assistant</em>: <a
-                    href="https://moduldb.informatik.uni-kiel.de/show.cgi?mod=infMobRob%2D01a">Mobile Robotics, Winter
-                    2023, CAU</a>
+                    href="https://moduldb.informatik.uni-kiel.de/show.cgi?mod=infMobRob%2D01a">Probabilistic Robotics, Winter
+                    2023, CAU</a> (now renamed to Mobile Robotics)
                   <br>
                 </td>
               </tr>
