@@ -11,7 +11,7 @@ H_new, W_new = int(H/4), int(W/4)
 cap = cv2.VideoCapture(in_vid)
 
 writer = cv2.VideoWriter( 
-        out_vid, cv2.VideoWriter_fourcc(*'MPEG'), 30, (W_new, H_new))
+        out_vid, cv2.VideoWriter_fourcc(*'mp4v'), 30, (W_new, H_new))
 
 cnt = 0
 while True:
