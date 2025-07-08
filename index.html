@@ -27,9 +27,11 @@
                   <p class="name" style="text-align: center;">
                     Mengkun She | 佘梦坤
                   </p>
-                  <p>Hi! I'm a Ph.D. student at the <a href="https://www.inf.uni-kiel.de/de"> Institute of Computer
+                  <p>Hi! I'm a computer vision research engineer at Dandy, the digital dental lab working on accurate
+                    geometry and appearance capture for human teeth using image-based 3D modeling and inverse rendering.
+                    Before joining Dandy, I did my PhD at<a href="https://www.inf.uni-kiel.de/de"> Institute of Computer
                       Science</a>, <a href="https://www.uni-kiel.de/de/">Christian-Albrechts-Universität zu Kiel</a> in
-                    Germany. Here, I'm working in the <a
+                    Germany. Previously, I was working in the <a
                       href="https://www.marine.informatik.uni-kiel.de/en/about">Marine Data Science</a> group advised by
                     Prof. Dr. Kevin Köser.
                   </p>
@@ -52,8 +54,12 @@
             </tbody>
           </table>
 
-          <table width="60%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <table width="80%" align="center" border="0" cellspacing="0" cellpadding="20">
             <tr>
+              <td width="50%" valign="middle">
+                <a href="https://www.meetdandy.com/"><img src="media/dandy.jpeg"
+                    width="120"></a>
+              </td>
               <td width="50%" valign="middle">
                 <a href="https://www.marine.informatik.uni-kiel.de/en/about"><img src="media/cau_logo.png"
                     width="120"></a>
@@ -85,6 +91,34 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
+              <!--Relative illumination field-->
+              <tr bgcolor="#ffffd0">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src='images/standard_colmap.gif' alt="rsfm" width="160">
+                  <img src='images/refrac_sfm.gif' alt="rsfm" width="160">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2403.08640">
+                    <span class="papertitle">Relative Illumination Fields: Learning Medium and Light Independent
+                      Underwater Scenes</span>
+                  </a>
+                  <br>
+                  <strong>Mengkun
+                    She*</strong>, Felix Seegräber*, <a href="https://www.geomar.de/dnakath">David Nakath</a>, <a
+                    href="https://www.marine.informatik.uni-kiel.de/en/team">Kevin Köser</a>
+                  <br>
+                  <strong style="color:red">(*equal contribution)</strong>
+                  <br>
+                  <em>International Conference on Computer Vision (<strong>ICCV</strong>)</em>,
+                  2025
+                  <br>
+                  <a href="https://arxiv.org/abs/2504.10024">Preprint</a> / <a
+                    href="https://cau-git.rz.uni-kiel.de/inf-ag-koeser/colmap_underwater">Code</a>
+                  <p>We address the challenge of constructing a consistent and photorealistic Neural Radiance Field in
+                    inhomogeneously illuminated, scattering environments with unknown, co-moving light sources.</p>
+                </td>
+              </tr>
+
               <!--AUV Mapping book chapter-->
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -92,11 +126,11 @@
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a href="https://link.springer.com/chapter/10.1007/978-3-031-59531-8_3">
-                    <span class="papertitle">Autonomous Visual 3D Mapping of the Ocean Floor by Underwater Robots Equipped with a Single Photo Camera</span>
+                    <span class="papertitle">Autonomous Visual 3D Mapping of the Ocean Floor by Underwater Robots
+                      Equipped with a Single Photo Camera</span>
                   </a>
                   <br>
-                  <a
-                    href="https://www.marine.informatik.uni-kiel.de/en/team">Kevin Köser</a>, <strong>Mengkun
+                  <a href="https://www.marine.informatik.uni-kiel.de/en/team">Kevin Köser</a>, <strong>Mengkun
                     She</strong>, Nikolaj Diller, Sylvia Reissmann, Tim Weiß, etc ...
                   <br>
                   <em>[Springer Book Chapter] Scanning Technologies for Autonomous Systems</em>
@@ -136,9 +170,9 @@
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <!-- <img src='images/auv_mapping.png' alt="auv_mapping" width="160"> -->
                   <div class="one" id='auv_mapping'><video width=100% height=100% muted autoplay loop>
-                    <source src="images/auv_mapping.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                  </video></div>
+                      <source src="images/auv_mapping.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video></div>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/rob.22390">
@@ -194,7 +228,8 @@
                   </a>
                   <br>
                   <a href="https://www.geomar.de/dnakath">David Nakath</a>, <a
-                    href="https://www.geomar.de/xweng">Xiangyu Weng</a>, <strong>Mengkun She</strong>, <a href="https://www.marine.informatik.uni-kiel.de/en/team">Kevin
+                    href="https://www.geomar.de/xweng">Xiangyu Weng</a>, <strong>Mengkun She</strong>, <a
+                    href="https://www.marine.informatik.uni-kiel.de/en/team">Kevin
                     Köser</a>
                   <br>
                   <br>
@@ -235,9 +270,9 @@
               <tr bgcolor="#ffffd0">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one" id='bubblebox'><video width=100% height=100% muted autoplay loop>
-                    <source src="images/bubblebox_small.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                  </video></div>
+                      <source src="images/bubblebox_small.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video></div>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a href="https://www.sciencedirect.com/science/article/pii/S092427162200171X">
